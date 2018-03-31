@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pie_chart_report"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back1"
+    tools:context="com.example.administrator.costmanagement.Activity.PieChartReportActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/dailyPieChartButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Daily"
+            android:textSize="8sp"
+            android:background="@drawable/additembtn_back"
+            />
+        <Button
+            android:id="@+id/weeklyPieChartButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Weekly"
+            android:textSize="8sp"
+            android:background="@drawable/additembtn_back"
+            />
+        <Button
+            android:id="@+id/mounthlyPieChartButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Mounthly"
+            android:textSize="8sp"
+            android:background="@drawable/additembtn_back"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/pieChartFragment"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"></LinearLayout>
+
+</LinearLayout>

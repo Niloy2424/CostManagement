@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_report"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.example.administrator.costmanagement.Activity.ReportActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="3"/>
+
+        <Button
+            android:onClick="listReportButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:text="Report In List"
+            android:paddingLeft="47dp"
+            android:paddingRight="47dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:background="@drawable/additembtn_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"/>
+
+        <Button
+            android:onClick="pieChartReportButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:text="Report In Pie Chart"
+            android:textSize="18dp"
+            android:paddingLeft="63dp"
+            android:paddingRight="63dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="@drawable/additembtn_back"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"/>
+
+        <Button
+            android:onClick="searchReportButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:text="Search Report"
+            android:textSize="18dp"
+            android:paddingLeft="63dp"
+            android:paddingRight="63dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="@drawable/additembtn_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="3"/>
+    </LinearLayout>
+
+</LinearLayout>

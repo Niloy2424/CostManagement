@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cost_purpose"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back1"
+android:padding="8dp"
+    tools:context="com.example.administrator.costmanagement.Activity.ExtraCostPurposeActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Extra Purpose Name"
+            android:textSize="19sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:id="@+id/textView2" />
+
+        <EditText
+            android:id="@+id/ExtraPurposeNameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="purpose Name"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Extra Purpose Amount "
+            android:textSize="19sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/ExtraPurposeAmountET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="purpose Amount"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/addItemButton"
+            android:onClick="addItemButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:layout_marginTop="8dp"
+            android:text="Add  item"
+            android:textSize="19sp"
+            android:layout_marginLeft="20sp"
+            android:background="@drawable/additembtn_back"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:onClick="purposeResetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:layout_marginTop="8dp"
+            android:text="Reset"
+            android:textSize="19sp"
+            android:layout_marginLeft="80sp"
+            android:background="@drawable/additembtn_back"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purpose"
+            android:textColor="@color/listItemHaddingColour"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:textColor="@color/listItemHaddingColour"
+            android:textStyle="bold"
+            android:paddingLeft="30dp"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/categoryLV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</LinearLayout>
+

@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back1"
+    tools:context="com.example.administrator.costmanagement.Fragment.DailyListFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/transportTV"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Transport"
+
+
+            android:textColor="@color/listItemHaddingColour"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/mobileTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:text="Mobile"
+            android:textColor="@color/listItemHaddingColour"
+            android:gravity="center"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/foodTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="Food"
+            android:textColor="@color/listItemHaddingColour"
+            android:textSize="10sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/entertainmentTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:gravity="center"
+
+            android:text="Entertainment"
+            android:textColor="@color/listItemHaddingColour"
+            android:textSize="10sp" />
+        <TextView
+            android:id="@+id/totalTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:text="Total"
+            android:textColor="@color/listItemHaddingColour"
+            android:textSize="10sp" />
+        <TextView
+            android:id="@+id/datetimeTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:text="DateTime"
+            android:textColor="@color/listItemHaddingColour"
+            android:textSize="10sp" />
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:id="@+id/dailyReportLV"></ListView>
+
+</LinearLayout>

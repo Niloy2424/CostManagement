@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="mainactivity_back">#9915e6</color>
+    <color name="addItmBtnColour">#173faf</color>
+    <color name="addItmBtnColourInactive">#790768</color>
+    <color name="listItemHaddingColour">#1737ef</color>
+    <color name="categoryItemColour">#ed29021f</color>
+    <color name="taka">#edcc0a0d</color>
+    <color name="searchrarea">#ed079c92</color>
+</resources>
